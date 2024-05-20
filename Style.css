@@ -1,0 +1,47 @@
+/* Reset de CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cajagrande {
+    border: 2px solid; 
+    border-color: black;
+    width: 700px;
+    padding: 2%;
+}
+.cabecerapostal {
+    display: inline-block;
+    padding-bottom: 10px;
+     }
+     img {
+        width: 40%;
+        height: 40%;
+        margin-left: 170%;
+        display: inline-block;
+        vertical-align: middle;
+        padding-bottom: 10px;
+     }
+     .titulo {
+        margin-top: auto;
+        display: inline-block;
+        vertical-align: middle;
+     }
+     
+      #Parrafo {
+        width: 690px;
+        float: left;
+     }
+     .texto1 {
+        width: 40%;
+        display: inline-block;
+    }
+     #Parrafo div:nth-child(2) {
+        margin-left: 10%;
+    }
+    #cajaboton {
+        width: 100%;
+        display: grid;
+        place-items: center;
+        padding-top: 10%;
+    }
